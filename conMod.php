@@ -5,7 +5,7 @@ class DB{
     
     
     public function __construct() {
-      $this->con = mysqli_connect("localhost", "root","","gym") or die(mysqli_error($this->con));
+      $this->con = mysqli_connect("us-cdbr-east-02.cleardb.com", "b174b16fa4e6a7","c752f2e0","heroku_38be36a14111d56") or die(mysqli_error($this->con));
     }
     
     public function getConnection(){
